@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="test">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <title>Install AngularJS bundle package using wget and file system npm path</title>
+    <script src="./dist/bundle.js"></script>
+</head>
+<body layout='row' ng-cloak ng-controller="TestController as vm">
+    <!-- SPA -->
+    <p>{{text}}</p>
+
+    {{vm.hero.name}}
+
+    <example-component hero="vm.hero"></example-component>
+
+    <div ng-controller="TestCtrl as tc">
+        {{tc.value}}
+    </div>
+</body>
+</html>

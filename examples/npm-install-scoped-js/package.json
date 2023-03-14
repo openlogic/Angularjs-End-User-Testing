@@ -1,0 +1,35 @@
+{
+  "name": "npm-install-scoped-js",
+  "version": "1.0.0",
+  "description": "Install AngularJS scoped packages - JavaScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -c ./webpack.config.js",
+    "serve": "npx http-server ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "npm:@perforce-angularjs/angular@1.8.5",
+    "angular-animate": "npm:@perforce-angularjs/angular-animate@1.8.5",
+    "angular-aria": "npm:@perforce-angularjs/angular-aria@1.8.5",
+    "angular-cookies": "npm:@perforce-angularjs/angular-cookies@1.8.5",
+    "angular-i18n": "npm:@perforce-angularjs/angular-i18n@1.8.5",
+    "angular-loader": "npm:@perforce-angularjs/angular-loader@1.8.5",
+    "angular-message-format": "npm:@perforce-angularjs/angular-message-format@1.8.5",
+    "angular-messages": "npm:@perforce-angularjs/angular-messages@1.8.5",
+    "angular-mocks": "npm:@perforce-angularjs/angular-mocks@1.8.5",
+    "angular-parse-ext": "npm:@perforce-angularjs/angular-parse-ext@1.8.5",
+    "angular-resource": "npm:@perforce-angularjs/angular-resource@1.8.5",
+    "angular-route": "npm:@perforce-angularjs/angular-route@1.8.5",
+    "angular-sanitize": "npm:@perforce-angularjs/angular-sanitize@1.8.5",
+    "angular-touch": "npm:@perforce-angularjs/angular-touch@1.8.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

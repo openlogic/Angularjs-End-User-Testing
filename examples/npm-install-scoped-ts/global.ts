@@ -1,0 +1,6 @@
+declare module 'angular-i18n/en'
+declare module 'angular-loader/angular-loader'
+declare module 'angular-message-format'
+declare module 'angular-messages'
+declare module 'angular-parse-ext'
+declare module 'angular-touch'

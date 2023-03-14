@@ -1,0 +1,10 @@
+.env
+.npmrc
+node_modules
+*.bak
+package-lock.json
+dist
+yarn-error.log
+yarn.lock
+perforce-angularjs.tgz
+vendor
