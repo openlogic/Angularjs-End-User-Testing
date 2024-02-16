@@ -33,9 +33,13 @@ The following AngularJS versions are supported by Perforce.
 | 1.6.10 |
 | 1.6.11 |
 | 1.6.12 |
+| 1.6.13 |
+| 1.6.14 |
 | 1.8.3  |
 | 1.8.4  |
 | 1.8.5  |
+| 1.8.6  |
+| 1.8.7  |
 
 ### Useful References
 
